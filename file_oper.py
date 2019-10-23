@@ -1,0 +1,11 @@
+#file=open('file_1.txt','r')
+#print(file.read())
+#print(file.read(5))#will read first 8 characters
+file_1=open("file_2.txt",'w')
+file_1.write("sample file exectn first rtu")
+file_1.write("creating a sample file in directory exctn 1 rtu")
+file_1.write("writing fresh data")
+file_1.close()
+file_1=open('file_1.txt','a')
+file_1.write("this will add this line")
+file_1.close()
